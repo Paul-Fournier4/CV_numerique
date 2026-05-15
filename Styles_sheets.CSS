@@ -99,12 +99,18 @@ section p {
 .article {
     margin: 1rem;
     padding: 10px;
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     border: 3px solid rgb(0, 134, 0);
     border-radius: 17px;
     text-align: center;
     background-color: rgb(0, 201, 0);
+    overflow: auto;
+}
+.projet .article:hover {
+    transition: 210ms;
+    transform: scale(1.05);
+    box-shadow: 15px 15px 10px rgb(0, 67, 8);
 }
 .article a {
     text-decoration: none;
@@ -112,14 +118,15 @@ section p {
 .article h3 {
     margin-top: 0px;
     margin-bottom: 5px;
-    color: rgb(111, 0, 52);
+    color: rgb(6, 88, 0);
     font-size: 1.2rem;
 }
-.projet .article:hover {
-    transition: 210ms;
-    transform: scale(1.05);
-    box-shadow: 15px 15px 10px rgb(0, 67, 8);
+.description {
+    margin-top: 5px;
+    font-size: 0.9rem;
+    color: rgb(1, 81, 10);
 }
+
 .codes {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -138,3 +145,13 @@ section p {
     height: 100px;
     border-radius: 10px;
 }
+.selecter1, .selecter2 {
+    margin-left: 10px;
+    padding: 5px;
+    border: 2px solid rgb(0, 180, 36);
+    border-radius: 5px;
+}
+option:checked {
+    background-color: rgb(0, 180, 36);
+}
+
