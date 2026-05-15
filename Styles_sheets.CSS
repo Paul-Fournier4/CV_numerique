@@ -154,4 +154,10 @@ section p {
 option:checked {
     background-color: rgb(0, 180, 36);
 }
+.detail {
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 10px;
+    color: rgb(0, 136, 20);
+}
 
