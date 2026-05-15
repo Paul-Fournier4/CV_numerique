@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="Styles_sheets.CSS">
+    <script async src="Java.js"></script>
+    <title>Mes experiences</title>
+</head>
+<body>
+    <nav>
+        <a href="CV numerique.html">Accueil</a>
+    </nav>
+    <section id="experiences">
+        <h2>Mes expériences</h2>
+        <h4>Les projets realisée au cours de l'année :</h4>
+        <div class="filter">
+            <label for="CodesFilter">Filtrer par code utilisé :</label>
+        <select id="CodesFilter">
+            <option value="all">Tous les projets</option>
+        </select>
+        <select id="only-and">
+            <option value="and">Projet avec ce code et d'autres</option>
+            <option value="only">Projet seulement ce code</option>
+        </select>
+        </div>
+        <div class="projet" id="projets-container">
+            <!-- Les projets seront affichés ici par JavaScript -->
+        </div>
+    </section>
+</body>
+</html>

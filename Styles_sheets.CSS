@@ -1,0 +1,140 @@
+html {
+scroll-behavior: smooth;
+}
+body { 
+    background-color: rgba(140, 253, 117, 0.692); 
+    color: rgba(0, 2, 100, 0.845);
+}
+header {
+    margin: 1rem;
+    padding: 10px;
+    border: 3px solid rgb(32, 1, 59);
+    border-radius: 17px;
+    background-color: rgba(139, 218, 164, 0.692);
+    color: rgb(68, 0, 137);
+    font-family: Georgia, serif;
+}
+header p{
+    margin-top: -15px;
+    font-size: 2rem;
+    color: rgb(0, 100, 13)
+}
+header a{
+    text-decoration: none;
+    font-style: italic;
+    color: rgb(0, 100, 13)
+}
+header a:hover{
+    text-decoration: underline dashed;
+    color: rgb(0, 3, 196)
+}
+nav {
+    margin: 1rem;
+    padding: 10px;
+    border: 3px solid rgb(0, 4, 111);
+    border-radius: 17px;
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+}
+section h1 {
+    text-align: center;
+    color: rgb(0, 4, 111);
+    text-decoration: underline black;
+}
+section p {
+    margin: 1rem;
+    
+}
+.langues_apprise {
+    margin: 1rem;
+    padding: 10px;
+    border: 3px solid rgb(0, 4, 111);
+    border-radius: 17px;
+    text-align: center;
+}
+.langues_apprise dt,.langues_apprise dd {
+  display: inline-block;
+}
+.langues_apprise dt {
+    font-weight: bold;
+    color: rgb(0, 92, 14);
+}
+.langues_apprise dd {
+    margin-left: 2rem;
+    
+    border-radius: 10px;
+    padding:0.5rem;
+    background-color: rgb(15, 55, 0);
+    color: rgb(0, 176, 0)
+}
+
+#experiences {
+    margin-top: 0px;
+    margin: 1rem;
+    padding-top: 5px;
+    align-items: center;
+}
+#experiences h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-family: Georgia, serif;
+    text-decoration: underline black;
+    color: rgb(18, 88, 0);
+}
+#experiences h4 {
+    text-decoration: underline;
+    color: seagreen;
+    font-size: 1rem;
+}
+.projet {
+    margin: 1rem;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 95%;
+}
+.article {
+    margin: 1rem;
+    padding: 10px;
+    height: 200px;
+    width: 200px;
+    border: 3px solid rgb(0, 134, 0);
+    border-radius: 17px;
+    text-align: center;
+    background-color: rgb(0, 201, 0);
+}
+.article a {
+    text-decoration: none;
+}
+.article h3 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    color: rgb(111, 0, 52);
+    font-size: 1.2rem;
+}
+.projet .article:hover {
+    transition: 210ms;
+    transform: scale(1.05);
+    box-shadow: 15px 15px 10px rgb(0, 67, 8);
+}
+.codes {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.code {
+    display: inline-block;
+    background: rgb(104, 0, 0);
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin: 2px;
+    font-size: 12px;
+}
+.imgprojet {
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+}
