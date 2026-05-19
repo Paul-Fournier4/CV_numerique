@@ -2,7 +2,7 @@ html {
 scroll-behavior: smooth;
 }
 body { 
-    background-color: rgba(140, 253, 117, 0.692); 
+    background-color: rgba(151, 255, 155, 0.683); 
     color: rgba(0, 2, 100, 0.845);
 }
 header {
@@ -101,16 +101,18 @@ section p {
     padding: 10px;
     height: 250px;
     width: 250px;
-    border: 3px solid rgb(0, 134, 0);
+    border: 3px solid rgb(64, 255, 64);
     border-radius: 17px;
     text-align: center;
-    background-color: rgb(0, 201, 0);
+    background-color: rgb(138, 255, 138);
     overflow: auto;
 }
 .projet .article:hover {
     transition: 210ms;
     transform: scale(1.05);
     box-shadow: 15px 15px 10px rgb(0, 67, 8);
+    border: 3px solid rgb(0, 134, 0);
+    background-color: rgb(0, 201, 0);
 }
 .article a {
     text-decoration: none;
